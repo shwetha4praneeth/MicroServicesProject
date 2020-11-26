@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/myform",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{ \"rollNumber\": \"11\", \"name\": \"Gaurav\" }",
+        "jsonCompareMode": "LENIENT"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "jsonBody": {
+      "id": "Created successfully"
+    }
+  }
+}

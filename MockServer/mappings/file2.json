@@ -1,0 +1,28 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/user/one"
+      },
+      "response": {
+        "status": 200,
+        "jsonBody": {
+          "id": "created one successfully"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPattern": "/user/two"
+      },
+      "response": {
+        "status": 200,
+        "jsonBody": {
+          "id": "created two successfully"
+        }
+      }
+    }
+  ]
+}

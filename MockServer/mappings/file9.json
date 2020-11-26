@@ -1,0 +1,12 @@
+{
+  "request": 
+	{
+   	 "urlPattern": "/person/canada",
+    	 "method": "GET"
+  },
+  "response": 
+	{
+    	 "status": 200,
+   	 "body": "CA"
+  }
+}

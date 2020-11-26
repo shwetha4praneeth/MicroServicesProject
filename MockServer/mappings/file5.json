@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/authperson",
+    "basicAuth": {
+      "username": "shwpra@gmail.com",
+      "password": "Swetha@123"
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "session_id": "Successfully created"
+    }
+  }
+}

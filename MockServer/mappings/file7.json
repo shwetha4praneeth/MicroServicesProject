@@ -1,0 +1,24 @@
+{
+  "request": {
+    "urlPath": "/webservicesserver/numberconversion",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "response.xml",
+    "headers": {
+      "Server": "Microsoft-IIS/8.0",
+      "Access-Control-Allow-Origin": "http://www.dataaccess.com",
+      "Access-Control-Allow-Methods": "GET,POST",
+      "Connection": "Keep-Alive",
+      "Web-Service": "DataFlex 18.1",
+      "Access-Control-Allow-Headers": "content-type",
+      "Date": "Mon, 27 July 2020 20:00:00 IST",
+      "Strict-Transport-Security": "max-age=31536000",
+      "Cache-Control": "private, max-age=0",
+      "Access-Control-Allow-Credentials": "true",
+      "Content-Length": "1000",
+      "Content-Type": "application/soap+xml; charset=utf-8"
+    }
+  }
+}

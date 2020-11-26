@@ -1,0 +1,35 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/person",
+    "queryParameters": {
+      "id": {
+        "matches": "^[0-9]{2}$"
+      },
+      "search_item": {
+        "equalTo": "address"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "firstName": "Shwetha",
+      "lastName": "Praneeth",
+      "gender": "woman",
+      "age": 35,
+      "address": {
+        "streetAddress": "No 302",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "postalCode": "500072"
+      },
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "9986007114"
+        }
+      ]
+    }
+  }
+}

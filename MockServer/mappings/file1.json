@@ -1,0 +1,10 @@
+{
+  "request": {
+    "urlPattern": "/person/p0001",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "body": "2020/us"
+  }
+}
